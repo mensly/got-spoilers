@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:tal="http://xml.zope.org/namespaces/tal">
+<head>
+  <title>Game of Thrones Spoilers</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  <meta property="og:title" content="Game of Thrones Spoilers" />
+  <meta property="og:url" content="http://got-spoilers.mens.ly" />
+  <meta property="og:description" content="${spoiler}" />
+  <meta property="og:image" content="http://got-spoilers.mens.ly/static/grrm.jpg" />
+  <style>
+    body {
+      background-color: black;
+      background: black url('../static/grrm.jpg') no-repeat fixed center
+    }
+    h1 {
+      text-align: center;
+      font-size: 300%;
+    }
+    h2 {
+      text-align: center;
+      font-size: 600%;
+      margin: 30px;
+    }
+    .flash {
+      -webkit-animation-duration: 0.2s;
+      -webkit-animation-name: flash;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: steps(1, start);
+      animation-duration: 0.2s;
+      animation-name: flash;
+      animation-iteration-count: infinite;
+      animation-timing-function: steps(1, start);
+      }
+    @-webkit-keyframes flash {
+      0% {
+        color: #0000FF;
+      }
+      50% {
+        color: #FF0000;
+      }
+      100% {
+        color: #0000FF;
+      }
+    }
+    @keyframes flash {
+      0% {
+        color: #0000FF;
+      }
+      50% {
+        color: #FF0000;
+      }
+      100% {
+        color: #0000FF;
+      }
+    }
+    .share {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 30px;
+    }
+    a:link {color: #5555FF;} 
+    a:visited {color: #5555FF;}
+    a:hover {color: #FF0000;}
+    a:active {color: #FF0000;}
+    .refresh {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 30px;
+      font-size: 200%;
+    }
+    .music {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 30px;
+    }
+    .loading {
+      display: none;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+    }
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+    <img id="loading" class="loading"
+         src="/static/grrm.gif" alt="Loading..." />
+    <h1 class="flash" style="position: relative; top: 50px">
+      SPOILER ALERT
+    </h1>
+    <h2 class="flash" id="spoiler">${spoiler}</h2>
+    <a id="refresh" class="refresh" href="/">
+       Read On!
+    </a>
+    <audio class="music" preload="auto" autoplay="autoplay" controls="controls">
+        <source src="/static/${music_file}.mp3" type="audio/mpeg" />
+        <source src="/static/${music_file}.ogg" type="audio/ogg" />
+        <!-- Audio from: https://www.youtube.com/watch?v=${music_src} -->
+    </audio>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#refresh").click(function(e){
+          $("#loading").show();
+          $.ajax({
+            url: "/spoiler",
+            success: function(data) {
+            $("#loading").hide();
+              $("#spoiler").html(data);
+            }
+          });
+          e.preventDefault();
+        });
+      });
+      </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=182853051768469";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="share">
+        <div class="fb-share-button" 
+             data-href="http://got-spoilers.mens.ly" data-type="button_count"/>
+    </div>
+</body>
+</html>

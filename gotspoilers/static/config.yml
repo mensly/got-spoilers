@@ -1,0 +1,385 @@
+characters:
+  - name:   Tyrion
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Jaime
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Cersei
+    tags:
+      - female
+      - alive
+      - main
+  - name:   Daenerys
+    tags:
+      - female
+      - alive
+      - main
+  - name:   Jon Snow
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Littlefinger
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Tywin Lannister
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Margaery Tyrell
+    tags:
+      - female
+      - alive
+      - main
+  - name:   Davos Seaworth
+    tags:
+      - male
+      - alive
+  - name:   Stannis Baratheon
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Melisandre
+    tags:
+      - female
+      - alive
+      - main
+  - name:   Theon
+    tags:
+      - male
+      - alive
+      - dead
+      - main
+  - name:   Joffrey
+    tags:
+      - male
+      - dead
+      - main
+  - name:   Bran
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Sansa
+    tags:
+      - female
+      - alive
+      - main
+  - name:   Arya
+    tags:
+      - female
+      - alive
+      - main
+  - name:   Samwell the Piggy
+    tags:
+      - male
+      - alive
+  - name:   Gendry
+    tags:
+      - male
+      - alive
+  - name:   Ygritte
+    tags:
+      - female
+      - alive
+      - main
+  - name:   Tormund Giantsbane
+    tags:
+      - male
+      - alive
+  - name:   The Hound
+    tags:
+      - male
+      - alive
+      - main
+  - name:   The Mountain
+    tags:
+      - male
+      - alive
+  - name:   Lady Brienne
+    tags:
+      - male
+      - female
+      - alive
+      - main
+  - name:   Ramsay Snow
+    tags:
+      - male
+      - alive
+  - name:   Shae
+    tags:
+      - female
+      - alive
+  - name:   Varys
+    tags:
+      - male
+      - female
+      - alive
+      - main
+  - name:   Catelyn Stark
+    tags:
+      - female
+      - dead
+      - alive
+      - main
+  - name:   Ned Stark
+    tags:
+      - male
+      - dead
+      - main
+  - name:   Renly
+    tags:
+      - male
+      - dead
+  - name:   Loras Tyrell
+    tags:
+      - male
+      - alive
+  - name:   Bronn
+    tags:
+      - male
+      - alive
+  - name:   Jorah Mormont
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Lord Commander Mormont
+    tags:
+      - male
+      - dead
+  - name:   Talisa
+    tags:
+      - female
+      - dead
+  - name:   Robb Stark
+    tags:
+      - male
+      - dead
+      - main
+  - name:   Robert Baratheon
+    tags:
+      - male
+      - dead
+      - main
+  - name:   Viserys Targaryen
+    tags:
+      - male
+      - dead
+      - main
+  - name:   Khal Drogo
+    tags:
+      - male
+      - dead
+      - main
+  - name:   Illyrio
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Xaro Xhoan Daxos
+    tags:
+      - male
+      - dead
+      - main
+  - name:   Beric Dondarrion
+    tags:
+      - male
+      - dead
+      - alive
+  - name:   Thoros of Myr
+    tags:
+      - male
+      - alive
+  - name:   Tommen Baratheon
+    tags:
+      - male
+      - alive
+  - name:   Myrcella Baratheon
+    tags:
+      - female
+      - alive
+  - name:   Grand Maester Pycelle
+    tags:
+      - male
+      - alive
+  - name:   Qyburn
+    tags:
+      - male
+      - alive
+  - name:   Ilyn Payne
+    tags:
+      - male
+      - alive
+  - name:   Podrick
+    tags:
+      - male
+      - alive
+  - name:   Jon Arryn
+    tags:
+      - male
+      - dead
+  - name:   Lysa Arryn
+    tags:
+      - female
+      - dead
+  - name:   Salladhor Saan
+    tags:
+      - male
+      - alive
+  - name:   Roose Bolton
+    tags:
+      - male
+      - alive
+  - name:   Walder Frey
+    tags:
+      - male
+      - alive
+  - name:   one of the many Freys
+    tags:
+      - male
+      - female
+      - alive
+  - name:   Balon Greyjoy
+    tags:
+      - male
+      - alive
+  - name:   Yara Greyjoy
+    tags:
+      - female
+      - alive
+  - name:   Lancel Lannister
+    tags:
+      - male
+      - alive
+  - name:   Moon Boy
+    tags:
+      - male
+      - alive
+  - name:   Prince Oberyn
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Ellaria Sand
+    tags:
+      - female
+      - alive
+  - name:   Rickon Stark
+    tags:
+      - male
+      - alive
+  - name:   Jojen Reed
+    tags:
+      - male
+      - alive
+  - name:   Meera Reed
+    tags:
+      - female
+      - alive
+  - name:   HODOR
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Osha
+    tags:
+      - female
+      - alive
+  - name:   Jojen Reed
+    tags:
+      - male
+      - alive
+  - name:   The Greatjon
+    tags:
+      - male
+      - alive
+  - name:   Lord Karstark
+    tags:
+      - male
+      - dead
+  - name:   Grey Wind
+    tags:
+      - male
+      - dead
+  - name:   Lady the direwolf
+    tags:
+      - female
+      - dead
+  - name:   Nymeria
+    tags:
+      - female
+      - alive
+  - name:   Summer
+    tags:
+      - male
+      - alive
+  - name:   Shaggydog
+    tags:
+      - male
+      - alive
+  - name:   Ghost
+    tags:
+      - male
+      - alive
+      - main
+  - name:   Daario Naharis
+    tags:
+      - male
+      - alive
+  - name:   Sir Barristan the Bold
+    tags:
+      - male
+      - alive
+  - name:   Grey Worm
+    tags:
+      - male
+      - alive
+  - name:   Edmure Tully
+    tags:
+      - male
+      - alive
+  - name:   The Blackfish
+    tags:
+      - male
+      - alive
+  - name:   Maester Aemon
+    tags:
+      - male
+      - alive
+  - name:   Benjen Stark
+    tags:
+      - male
+      - dead
+  - name:   Pyat Pree
+    tags:
+      - male
+      - dead
+
+weight_main:    10
+
+templates:
+  - text:   '%()s kills %(alive)s'
+    weight: 10
+  - '%()s kills Beric Dondarrion'
+  - '%(male)s rapes %(alive)s'
+  - '%(female,alive)s and %(female,alive)s finally give in to temptation'
+  - '%(male,alive)s and %(male,alive)s finally give in to temptation'
+  - '%(alive)s hosts a wedding for %(alive)s'
+  - '%(alive)s literally, not figuratively, emasculates %(male)s'
+  - '%(dead)s comes back as a zombie'
+  - 'An unlikely alliance between %(alive)s and %(alive)s means trouble for %(alive)s'
+  - '%(alive)s, %(alive)s and %(alive)s all get murdered by %()s'
+  - '%(alive,female)s gets pregnant... is %(alive,male)s the father?'
+  - 'The secret twin of %()s is revealed'
+  - text:   '%(god)s kills %(alive)s'
+    weight: 0.01
